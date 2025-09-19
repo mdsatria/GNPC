@@ -1,0 +1,17 @@
+python pipeline/generate_patch.py \
+--csv="sample_data/csv/dataset.csv" \
+--dir_output="sample_data/patches/cuhk" \
+--downsample=64 \
+--kernel_close=7 \
+--threshold=0 \
+--med_blur=7 \
+--patch_size=512 \
+--max_white_area=95 \
+--white_threshold=200 \
+--target_mag=20 \
+--percent=60 \
+--save_thumb \
+--save_mask \
+--save_coord \
+--save_img \
+--stitch

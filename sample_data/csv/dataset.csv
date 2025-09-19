@@ -1,0 +1,2 @@
+wsi,patient,age,sex,t_stage,n_stage,all_stage,smoking,family,censored_event,censored_time,path
+wsi_file.svs,patient_name,46.0,1,4.0,1.0,4.0,0.0,1.0,0,52,/path/to/wsi_file.svs

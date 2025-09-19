@@ -1,0 +1,16 @@
+data/
+sample_data/embeddings/
+sample_data/patches/
+sample_data/morphology/
+sample_data/gnn_training/
+sample_data/graphs
+notebooks/
+**.pyc
+__pycache__/
+gnpc/data_path.py
+test.ipynb
+pipeline/generate_final_results.py
+pipeline/generate_top_imgs.py
+install.md
+pipeline/generate_topk_patch.py
+

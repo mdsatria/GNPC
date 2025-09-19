@@ -1,0 +1,11 @@
+python pipeline/generate_graph.py \
+--csv='sample_data/csv/dataset.csv' \
+--dir_emb='sample_data/embeddings' \
+--dir_patch='sample_data/patches' \
+--dir_nuc='sample_data/morphology' \
+--dir_save='sample_data/graphs' \
+--cohort='cuhk' \
+--weighted \
+--use_nuc \
+--emb='resnet50' \
+--max_dist=2000 

@@ -1,0 +1,36 @@
+{
+     "train_config": {
+          "run_name": "any_random_name_or_UID",
+          "weight_decay": 1e-05,
+          "l2_nll": 0.0001,
+          "device": "cuda",
+          "optimiser": "sgd",
+          "endpoint": "dmfs",
+          "num_worker": 8,
+          "batch_size": 2,
+          "dir_save": "data_sample/gnn_training",
+          "exp_id": "final",
+          "lr": 0.001,
+          "epochs": 10,
+          "scheduler": false
+     },
+     "graph_config": {
+          "embedding": "resnet50",
+          "is_morph": true,
+          "is_weighted": true,
+          "is_multimodal": true,
+          "dir_graph_train": "data_sample/graphs/cuhk",
+          "dir_graph_val": "data_sample/graphs/cuhk",
+          "dir_graph_test": "data_sample/graphs/cuhk",
+          "csv_train": "data_sample/csv/dataset.csv",
+          "csv_val": "data_sample/csv/dataset.csv",
+          "csv_test": "data_sample/csv/dataset.csv"
+     },
+     "model_config": {
+          "m_conv": "GCN",
+          "m_act_conv": "LeakyReLU",
+          "m_act_fcn": "SELU",
+          "m_use_last": false,
+          "m_use_norm_fcn": true
+     }
+}
