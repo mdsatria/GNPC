@@ -149,8 +149,8 @@ If you use this code or find it helpful in your research, please cite the follow
 	title    = {Multimodal AI-Based Risk Stratification for Distant Metastasis in Nasopharyngeal Carcinoma},
    author   = {Zhou, Jiayu and Wibawa, Made Satria and Wang, Ruoyu and Deng, Ying and Huang, Haoyang and Luo, Zhuoying and Xia, Yue and Guo, Xiang and Young, Lawrence S. and Lo, Kwok-Wai and Rajpoot, Nasir and Lv, Xing},
    year     = {2025},
-	url      = {https://www.medrxiv.org/content/10.1101/2025.01.28.25321109v1},
-	doi      = {10.1101/2025.01.28.25321109},
+	url      = {https://www.esmoopen.com/article/S2059-7029(25)01678-3/fulltext},
+	doi      = {https://doi.org/10.1016/j.esmoop.2025.105809},
 }
 
 ```
